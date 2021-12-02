@@ -25,7 +25,7 @@ void shouldOrderTheCardForDelivery(){
         $("[data-test-id=agreement]").click();
         $(".button").click();
         $("[data-test-id=notification]")
-                .shouldBe(Condition.visible, Duration.ofSeconds(15));
+                .shouldBe(Condition.visible, Duration.ofSeconds(5));
 
 
     }
